@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ledra.Services", "Ledra.Ser
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ledra.Api", "Ledra.Api\Ledra.Api.csproj", "{492AE17E-31B8-4EF6-B121-F406092E1411}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lendra.Application", "Application\Lendra.Application.csproj", "{35F2320F-CC3E-4C5A-A251-59608F80F599}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ledra.Application", "Application\Ledra.Application.csproj", "{35F2320F-CC3E-4C5A-A251-59608F80F599}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
