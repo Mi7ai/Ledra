@@ -19,9 +19,9 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Application\Ledra.Application.csproj" />
+    <ProjectReference Include="..\Ledra.Dal\Ledra.Dal.csproj" />
+    <ProjectReference Include="..\Ledra.Domain\Ledra.Domain.csproj" />
     <ProjectReference Include="..\Ledra.Services\Ledra.Services.csproj" />
-    <ProjectReference Include="..\Lendra.Dal\Ledra.Dal.csproj" />
-    <ProjectReference Include="..\Lendra.Domain\Ledra.Domain.csproj" />
   </ItemGroup>
 
 </Project>

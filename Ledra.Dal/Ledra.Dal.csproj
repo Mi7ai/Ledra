@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Lendra.Domain\Ledra.Domain.csproj" />
+    <ProjectReference Include="..\Ledra.Domain\Ledra.Domain.csproj" />
   </ItemGroup>
 
 </Project>
