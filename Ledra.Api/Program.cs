@@ -22,6 +22,18 @@ builder.Services.AddDbContext<DataContext>(options => options.UseSqlServer(build
 builder.Services.AddScoped<IExpenseRepository, ExpenseRepository>();
 builder.Services.AddScoped<IExpenseService, ExpenseService>();
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowReactApp",
+        builder =>
+        {
+            builder.WithOrigins("http://localhost:5173") // React app's URL
+                   .AllowAnyHeader()
+                   .AllowAnyMethod();
+        });
+});
+
+
 
 var app = builder.Build();
 
@@ -34,8 +46,12 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseCors("AllowReactApp");
+
 app.UseAuthorization();
 
 app.MapControllers();
+
+
 
 app.Run();
