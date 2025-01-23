@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ledra.Dal", "Ledra.Dal\Ledr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ledra.Domain", "Ledra.Domain\Ledra.Domain.csproj", "{149D499E-4692-482C-A877-478859793016}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ledra.Tests", "Ledra.Tests\Ledra.Tests.csproj", "{6853C39B-B54F-4655-9D80-BF6873AE5139}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{149D499E-4692-482C-A877-478859793016}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{149D499E-4692-482C-A877-478859793016}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{149D499E-4692-482C-A877-478859793016}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6853C39B-B54F-4655-9D80-BF6873AE5139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6853C39B-B54F-4655-9D80-BF6873AE5139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6853C39B-B54F-4655-9D80-BF6873AE5139}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6853C39B-B54F-4655-9D80-BF6873AE5139}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

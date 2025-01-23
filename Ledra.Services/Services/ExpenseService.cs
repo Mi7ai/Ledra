@@ -4,7 +4,7 @@ using Ledra.Domain.Abstractions.Repositories;
 using Ledra.Domain.Abstractions.Services;
 using Ledra.Domain.Models;
 
-namespace Ledra.Services.Services
+namespace Ledra.Services
 {
     public class ExpenseService(IExpenseRepository expenseRepository, IMapper mapper) : IExpenseService
     {

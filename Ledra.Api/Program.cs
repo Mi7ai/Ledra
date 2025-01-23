@@ -2,7 +2,7 @@ using Ledra.Dal;
 using Ledra.Dal.Repositories;
 using Ledra.Domain.Abstractions.Repositories;
 using Ledra.Domain.Abstractions.Services;
-using Ledra.Services.Services;
+using Ledra.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

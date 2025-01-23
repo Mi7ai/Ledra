@@ -46,7 +46,7 @@ namespace Ledra.Api.Controllers
             return CreatedAtAction(nameof(GetExpenseById), new { expenseId = expenseGetDto.ExpenseId }, expenseGetDto);
         }
 
-        [HttpPut]
+        [HttpPut("{expenseId}")]
         public async Task<IActionResult> UpdateExpenseAsync([FromBody] ExpensePostPutDto expenseDto, int expenseId)
         {
             var expense = await _expenseService.UpdateExpenseAsync(expenseDto, expenseId);
