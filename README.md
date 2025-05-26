@@ -8,3 +8,6 @@ This project is licensed under a custom license.
 - For more details, see the [LICENSE](./LICENSE) file.
 
 The software is provided "as is," without warranty of any kind, express or implied. Please review the full license terms in the `LICENSE` file before using any portion of this code.
+
+# What is this project
+A backend API built with ASP.NET Core Web API, following Clean Architecture principles, for an expense management application.
